@@ -12,6 +12,7 @@ import java.io.IOException;
  * http://localhost:8080/test
  */
 
+// 에노테이션 하나로 서블릿을 편리하게 등록 가능
 @WebServlet(urlPatterns = "/test")
 public class TestServlet extends HttpServlet {
 
